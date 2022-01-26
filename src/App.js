@@ -1,14 +1,16 @@
 import { Fragment } from "react/cjs/react.production.min";
 import Header from "./components/Layout/Header";
-import MealsSummary from "./components/Meals/MealsSummary";
 
+import Meals from "./components/Meals/Meals";
 
 function App() {
   return (
     <Fragment>
-      <Header/>
-      <MealsSummary/>
-      </Fragment>
+      <Header />
+      <main>
+        <Meals/>
+      </main>
+    </Fragment>
   );
 }
 
