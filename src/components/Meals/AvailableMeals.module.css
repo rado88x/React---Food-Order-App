@@ -11,6 +11,17 @@
     padding: 0;
   }
   
+.MealsLoading {
+  text-align: center;
+  color: aliceblue;
+}
+
+.MealsError{
+  text-align: center;
+  color: red;
+  text-underline-offset: 10px;
+}
+
   @keyframes meals-appear {
     from {
       opacity: 0;
